@@ -1,0 +1,18 @@
+
+SCP COMMAND:
+
+FOR IPV6:
+
+scp <Software Package Name> <username>@<[IPV6_Address]>:<full path/Directory>
+
+Note: IPV6 should be inside [].
+
+Example : scp nokia.vmmhi_upgrade_sig_38.03.06.0300_182.sfx root@[2620:0:60:18a2::507]:/storage/downloads/
+
+
+For IPV4:
+
+scp <Software Package Name> <username>@<IPV4_Address>:<full path/Directory>
+
+Example : scp zts_release_21.8mp2_pp8.tar.gz ncs-admin@135.104.69.249:/data2/sbc/software/ZTS21.8_PP8
+
